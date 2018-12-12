@@ -1,5 +1,5 @@
-# fxserver-esx_policejob
-FXServer ESX Police Job
+# ESX Black Market Weapons Job
+
 
 [REQUIREMENTS]
 
@@ -18,14 +18,14 @@ FXServer ESX Police Job
 1) CD in your resources/[esx] folder
 2) Clone the repository
 ```
-git clone https://github.com/FXServer-ESX/fxserver-esx_policejob esx_policejob
+git clone https://github.com/MrMallenby/BlackMarket.git
 ```
 3) Import esx_policejob.sql in your database
 
 4) Add this in your server.cfg :
 
 ```
-start esx_policejob
+start esx_blackjob
 ```
 5) * If you want player management you have to set Config.EnablePlayerManagement to true in config.lua
    * If you want armory management you have to set Config.EnableArmoryManagement to true in config.lua
